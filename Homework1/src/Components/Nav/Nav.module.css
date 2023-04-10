@@ -1,0 +1,43 @@
+.main-menu a:hover,
+.main-menu .active{
+    text-decoration: underline;
+}
+
+.main-menu
+{
+    background: #8db8cf;
+}
+
+.main-menu menu
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0px 12px;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.main-menu a
+{
+    margin-left: 0.2rem;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.alignRight {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0.5 rem;
+}
+
+.pageTitle {
+    color: #ffff;
+    margin-left: 2rem;
+}

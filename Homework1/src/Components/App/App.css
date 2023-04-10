@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #4f99b4;
+  --primary-color-dark: #4689a1;
+  --secondary-color: #3f8aaf;
+  --secondary-color-dark: #31708f;
+  --accent-color: #f2a71b;
+  --error-color: #d56161;
+  --error-color-dark: #671717;
+  --success-color: #4BB543;
+  --success-color-dark: #023020;
+
+  --text-color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: var(--primary-color);
+  margin-left: 7rem;
+}

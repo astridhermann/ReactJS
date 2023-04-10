@@ -1,0 +1,26 @@
+.img {
+    opacity: 0.3;
+}
+
+.button2 {
+    background-color: #8db8cf;
+    border-radius: 6px;
+    border-color: #8db8cf;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 8px 20px;
+    color: white;
+} 
+
+.divButton
+{
+    flex-grow: 1;
+}
+
+.buttonWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

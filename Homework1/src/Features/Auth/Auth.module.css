@@ -1,0 +1,139 @@
+
+.authForm {
+    display: grid;
+    grid-template-columns: 140px 2fr;
+    gap: 1.2rem;
+  
+    max-width: 600px;
+  }
+
+.authForm .h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .authForm .divWrapper {
+    display:flex;
+    flex-direction: column;
+    margin-top: 0.3rem;
+    grid-column: 2;
+  }
+  
+  .authForm label {
+    text-align: right;
+    margin-top: 0.3rem;
+  }
+
+  .authForm
+    input:where(
+      [type='text'],
+      [type='password'],
+      [type='number'],
+      [type='email'],
+      [type='url']
+    ) {
+    --border-color:  #0000;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    grid-column: 2;
+  }
+  
+  .authForm
+    input:where(
+      [type='text'],
+      [type='password'],
+      [type='number'],
+      [type='email'],
+      [type='url']
+    ):focus {
+    outline: 2px solid var(--primary-color);
+  }
+  
+  .submitBtn {
+    grid-column-start: 2;
+  }
+
+  .successMessage,
+  .formError {
+    --txt-color: var(--error-color-dark);
+    --bg-color: var(--error-color);
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+
+    background-color: var(--bg-color);
+    border: 1px solid var(--txt-color);
+    border-radius: 5px;
+    color: var(--txt-color);
+  }
+
+
+  .sucessMessage {
+    --txt-color: var(--success-color-dark);
+    --bg-color: var(--success-color);
+
+    grid-column-start: 2;
+
+    margin: 0;
+    color: var(--success-color);
+  }
+
+
+  .inputError {
+    grid-column-start: 2;
+
+    margin: 0;
+    color: var(--error-color);
+  }
+
+  .authForm .hasError {
+    --border-color: var(--error-color);
+  }
+
+  .underTitleGroup{
+    display: grid;
+    grid-template-columns: 140px 2fr;
+    gap: 1.2rem;
+  }
+
+  .titleGroup{
+    display: flex;
+    grid-column: 2;
+  }
+
+  .formTitle{
+    display: flex;
+    grid-column: 2;
+  }
+  .formTitle > p{
+    padding-left: 5px;
+  }
+
+  .underTitleGroup .underTitle{
+    color: #000;
+  }
+  
+  .authLink {
+    color: var(--secondary-color);
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+  .authTitle {
+    display: grid;
+    grid-template-columns: 140px 2fr;
+    gap: 1.2rem;
+  }
+
+  .authTitle > h1{
+    color: var(--primary-color);
+    grid-column: 2;
+    margin-left: 0rem;
+  }
+
+
+ 
