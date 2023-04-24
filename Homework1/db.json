@@ -5,6 +5,12 @@
       "password": "$2a$10$sXFo5W5Fnlu7EAzJ2wJ7aucoA6b5aBXe5dNtpTQxAKt1bnzMoYp7q",
       "name": "Astrid Hermann",
       "id": 1
+    },
+    {
+      "email": "dorothea@yahoo.com",
+      "password": "$2a$10$da//nNMM0vChAYFM50OsKuR59wX.06J9UxkbtzDvAL2jAGCVOswgu",
+      "name": "dorothea",
+      "id": 2
     }
   ]
 }
