@@ -1,0 +1,36 @@
+
+.main-menu a:hover,
+.main-menu .active {
+  text-decoration: underline;
+}
+
+.main-menu {
+  height: 60px;
+  padding: 0.5rem 1rem;
+  background: rgb(56,63,92);
+  background: linear-gradient(90deg, rgba(56,63,92,1) 0%, rgba(98,111,153,1) 35%, rgba(48,53,70,1) 100%);
+}
+
+.main-menu menu {
+  display: flex;
+  gap: 1rem;
+
+  padding: 0;
+
+  list-style: none;
+  margin-left: 0rem;
+}
+
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pushRight {
+  margin-left: auto;
+  color: #a6b4e3;
+}
+
+.pushRight > a {
+  margin-left: 0.5rem;
+}

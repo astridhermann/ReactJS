@@ -1,0 +1,22 @@
+.backgroundHeader {
+    display: flex;
+    min-width: 320px;
+    height: calc( 100vh - 60px);
+}
+
+.button2 {
+    background-color: #8db8cf;
+    border-radius: 6px;
+    border-color: #8db8cf;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 8px 20px;
+    color: white;
+} 
+
+.backGroundDiv
+{
+    display: flex;
+    flex-grow: 1;
+}
+

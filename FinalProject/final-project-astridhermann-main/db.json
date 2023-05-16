@@ -1,26 +1,163 @@
 {
-"users": [
-],
-"products": [
-  {
-    "id": 1,
-    "name": "Galaxy S23",
-    "brandId": 1,
-    "categoryId": 1,
-    "price": 4999,
-    "stock": 12
-  }
-],
-"category": [
-  {
-    "id": 1,
-    "name": "Phones"
-  }
-],
-"brands": [
-  {
-    "id":1, 
-    "name": "Samsung"
-  }
-]
+  "users": [
+    {
+      "email": "astrid@a.com",
+      "password": "$2a$10$bbDFXvvz4BnpPeurbqWFU.xZiIlAoobQp0qVCop6cTzkGD6xQcfz6",
+      "firstName": "Astrid",
+      "lastName": "Hermann",
+      "id": 1
+    },
+    {
+      "email": "dorothea@d.com",
+      "password": "$2a$10$nSjQth3/gcHuYda3cFYSJerOQQgptC0n.OwEctLq2j1xm5OXTVlh.",
+      "firstName": "Dorothea",
+      "lastName": "Hermann",
+      "id": 2
+    },
+    {
+      "email": "astrid@gmail.com",
+      "password": "$2a$10$akdAbYWP5wUKkNTMpTmPiuP/A3nNqjggMDZQTZ9Onasn6UsJ8X9wW",
+      "firstName": "Astrid",
+      "lastName": "Hermann",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "CHANEL N°5 100ml",
+      "description": "A Chanel No 5 Parfum by Chanel is a Floral Aldehyde fragrance for women. Chanel No 5 Parfum was launched in 1921. The nose behind this fragrance is Ernest Beaux. Top notes are Aldehydes, Ylang-Ylang, Neroli, Bergamot and Lemon; middle notes are Iris, Jasmine, Rose, Orris Root and Lily-of-the-Valley; base notes are Civet, Musk, Amber, Sandalwood, Moss, Vetiver, Vanilla and Patchouli.",
+      "price": 160.89,
+      "stock": 100,
+      "picture": "https://images.unsplash.com/photo-1621240657140-8fb32e1e6b36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "brandId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "name": "LIBRE 90ml",
+      "description": "Libre by Yves Saint Laurent is a Amber Fougere fragrance for women. Libre was launched in 2019. Libre was created by Anne Flipo and Carlos Benaim. Top notes are Lavender, Mandarin Orange, Black Currant and Petitgrain; middle notes are Lavender, Orange Blossom and Jasmine; base notes are Madagascar Vanilla, Musk, Cedar and Ambergris.",
+      "price": 791.9,
+      "stock": 7,
+      "picture": "https://images.unsplash.com/photo-1598121496628-9d8b7578e290?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "brandId": 3,
+      "categoryId": 1
+    },
+    {
+      "categoryId": 1,
+      "brandId": 6,
+      "stock": 7,
+      "price": 637.99,
+      "description": "Irresistible Givenchy by Givenchy is a Floral Fruity fragrance for women. Irresistible Givenchy was launched in 2020. Irresistible Givenchy was created by Fanny Bal, Dominique Ropion and Anne Flipo. Top notes are Pear and Ambrette (Musk Mallow); middle notes are Rose and Iris; base notes are Musk and Virginia Cedar.",
+      "picture": "https://images.unsplash.com/photo-1622978147821-50b2c0e64d97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+      "name": "IRRESISTIBLE 80ml",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "categoryId": 1,
+      "brandId": 7,
+      "stock": 20,
+      "price": 508,
+      "description": "Daisy by Marc Jacobs is a Floral Woody Musk fragrance for women. Daisy was launched in 2007. The nose behind this fragrance is Alberto Morillas. Top notes are Violet Leaf, Blood Grapefruit and Strawberry; middle notes are Violet, Gardenia and Jasmine; base notes are Musk, White Woods and Vanilla. This perfume is the winner of 2 awards: FiFi Award Fragrance Of The Year Women`s Luxe 2008 and FiFi Awards Best Packaging Women`s Prestige 2008.",
+      "picture": "https://images.unsplash.com/photo-1658610018777-abc0a8e81e1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "name": "DAISY 100ml",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "categoryId": 1,
+      "brandId": 1,
+      "stock": 3,
+      "price": 1142,
+      "description": "Coco Noir by Chanel is a Amber Woody fragrance for women. Coco Noir was launched in 2012. Coco Noir was created by Jacques Polge and Christopher Sheldrake. Top notes are Grapefruit, Bergamot and Orange; middle notes are Rose, Geranium, Jasmine, Narcissus and Peach; base notes are Patchouli, Sandalwood, Olibanum, Tonka Bean, Vanille, White Musk, Cloves and Benzoin.",
+      "picture": "https://images.unsplash.com/photo-1594035910387-fea47794261f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "name": "COCO NOIR 100ml",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "categoryId": 4,
+      "brandId": 5,
+      "stock": 15,
+      "price": 159.49,
+      "description": "It’s a warm, brick red with a bit of an orange warm tone, making it a glamorous and laid-back red. It’s perfect for daytime or the weekend.",
+      "picture": "https://images.unsplash.com/photo-1670981321083-9b7ab0843f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+      "name": "Lancome L'Absolu Rouge Matte 189 Isabella",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "categoryId": 4,
+      "brandId": 1,
+      "stock": 15,
+      "price": 323.03,
+      "description": "Lightweight, hydrating and instantly refreshing, the ultra-light formula is composed of 75% water. Created with micro fluidic technology, micro-droplets of encapsulated pigments melt into the skin on contact creating a radiant bare-skin effect.",
+      "picture": "https://images.unsplash.com/photo-1583746433868-a47ed04cb300?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "name": "LES BEIGES WATER-FRESH TINT",
+      "userId": 1,
+      "id": 7
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Parfumes"
+    },
+    {
+      "id": 2,
+      "name": "Face"
+    },
+    {
+      "id": 3,
+      "name": "Hair"
+    },
+    {
+      "id": 4,
+      "name": "Makeup"
+    },
+    {
+      "name": "Body",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Coco Chanel"
+    },
+    {
+      "id": 2,
+      "name": "Dior"
+    },
+    {
+      "id": 3,
+      "name": "YSL"
+    },
+    {
+      "id": 4,
+      "name": "Versace"
+    },
+    {
+      "id": 5,
+      "name": "Lancome"
+    },
+    {
+      "id": 6,
+      "name": "Givenchy"
+    },
+    {
+      "name": "Marc Jacobs",
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "name": "Becca",
+      "userId": 1,
+      "id": 8
+    }
+  ]
 }
